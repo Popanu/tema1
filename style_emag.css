@@ -1,0 +1,267 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 1500px;
+    border: 3.5px solid #4072fa;
+    padding: 10px;
+    height: 20px;
+    border-radius: 15px;
+    outline: none;
+    color: #9DBFAF;
+    border-radius: 16px;
+}
+
+
+.loop {
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 40px;
+    height: 36px;
+    border-radius: 17px;
+    cursor: pointer;
+    
+}
+.profile-picture{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.favorites-logo {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 5px;
+     display: block;
+}
+
+.favorites{
+    width: 55px;
+}
+
+.cart-logo {
+    width:65px;
+}
+
+.cart {
+    display: block;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+.text-cart {
+    margin-left: 15px;
+    margin-top: -5px;
+    color: #000000;
+}
+.text-favorites {
+    margin-right: 15px;
+    margin-top:-5px;
+}
+.text-account {
+   
+    margin-top:-5px;
+}
+/* End of Header CSS */
+
+.nav-bar {
+    width: 100%;
+ background-image: linear-gradient(to right, #ff0303e0, #3f5efc);;
+    height: 55px;
+    margin-top: -15px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.hamburger-menu{
+    display: inline-block;
+}
+.hamburger {
+   width: 35px;
+   cursor:pointer;
+   align-items: center;
+   margin-top:12px;
+   
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button{
+background: transparent;
+color: white;
+border:0;
+text-decoration: solid;
+font-weight: 600;
+font-family: system-ui;
+ 
+}
+button:hover{
+    box-shadow: 0 0 10px 0 #42baf1 inset, 0 0 20px 2px #64dbeb;
+        border: 3px solid #41def3;
+        transition: 0.2s;
+        border-radius: 15px;
+        cursor: pointer;
+}
+.help {
+    margin-left: 1350px;
+}
+/*product list */
+
+.product-list {
+    width: 28px;
+    height: 650px;
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+}
+.apple,.windows,.tv,.gaming,.wash,.bacanie,.hat,.beauti,.house,.sport,.auto,.toy{
+    width: 25px;
+    margin-top:25px;
+    
+}
+
+/* Product Name */
+
+.product-name{
+    width: 200px;
+        height: 650px;
+        margin-top: -625px;
+        margin-right: 1800px;
+        display: block;
+        flex-direction: column;
+        float: right;
+        background-color: rgb(255, 255, 255);       
+}
+.txt1{
+    margin-top:5px;
+    
+}
+.txt2 {
+    margin-top: 27px;
+}
+.txt3{
+    margin-top: 39px;
+}
+.txt4 {
+    margin-top: 35px;
+}
+.txt5{
+    margin-top:36px;
+}
+.txt6 {
+    margin-top: 36px;
+}
+.txt7 {
+    margin-top: 36px;
+}
+.txt8 {
+    margin-top: 36px;
+}
+.txt9 {
+    margin-top: 28px;
+}
+.txt10 {
+    margin-top: 36px;
+}
+.txt11 {
+    margin-top: 37px;
+}
+.txt12 {
+    margin-top: 36px;
+}
+   
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    ;
+}
+
+a {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+
+
+
+/* */ 
+
+.offer{
+    background: linear-gradient(135deg, #BAD6FC 100%, rgb(58, 171, 236));
+    width:1700px;
+    height: 675px;
+    background-color: #64dbeb;
+    float:right;
+    margin-top: -675px;
+    margin-right: 100px;
+}
+
+.text-offer{
+    
+    width: 800px;
+    height: 97%;
+    margin-left: 35px;
+    text-align: justify;
+    font-family:monospace;
+    font-size: xx-large;
+    color: #2d58cc;
+}
+.h2{
+    color: black;
+    font-size: smaller;
+}
+#buy-now-button {
+    margin-left: 99px;
+    margin-top:150px;
+    font-size: x-large;
+    border: 3px solid;
+    border-radius: 15px;
+    color: #4072fa;
+    
+}
+.emag-wash{
+    float: right;
+    margin-top: -650px;
+    margin-right: 200px;
+}
+
+
+.right-arrow{
+    float: right;
+    margin-top: 275px;
+    font-size: xx-large;
+}
+.left-arrow{
+    font-size:xx-large;
+    margin-top:2
+}
